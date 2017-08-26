@@ -1,0 +1,59 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-facebook4": {
+            "APP_ID": "261226921033553",
+            "APP_NAME": "IzzyApp",
+            "PACKAGE_NAME": "com.pyxis.izzyapp"
+        },
+        "cordova-plugin-geolocation": {
+            "GEOLOCATION_USAGE_DESCRIPTION": " ",
+            "PACKAGE_NAME": "com.pyxis.izzyapp"
+        },
+        "cordova-plugin-googlemaps": {
+            "API_KEY_FOR_IOS": "AIzaSyCE9DvAFrGi5APpLFS42uxXAeRqflD-g3g",
+            "LOCATION_WHEN_IN_USE_DESCRIPTION": "Show your location on the map",
+            "LOCATION_ALWAYS_USAGE_DESCRIPTION": "Trace your location on the map",
+            "PACKAGE_NAME": "com.pyxis.izzyapp"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.pyxis.izzyapp"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.pyxis.izzyapp"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.pyxis.izzyapp"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.pyxis.izzyapp"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.pyxis.izzyapp"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "com.pyxis.izzyapp"
+        },
+        "com.synconset.imagepicker": {
+            "PHOTO_LIBRARY_USAGE_DESCRIPTION": "your usage message",
+            "PACKAGE_NAME": "com.pyxis.izzyapp"
+        },
+        "cordova-plugin-x-toast": {
+            "PACKAGE_NAME": "com.pyxis.izzyapp"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.pyxis.izzyapp"
+        },
+        "com.googlemaps.ios": {
+            "PACKAGE_NAME": "com.pyxis.izzyapp"
+        }
+    }
+}

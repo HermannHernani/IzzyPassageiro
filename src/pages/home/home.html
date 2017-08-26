@@ -1,0 +1,38 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Izzy Passageiro
+    </ion-title>
+    <ion-buttons end>
+    <button style = "25px;" (click) = "funcao1()" ion-button>
+        <ion-icon name="notifications"></ion-icon>
+    </button>
+      </ion-buttons>
+      <ion-buttons end>
+    <button style = "25px;" (click) = "funcao2()" ion-button>
+      <ion-icon name="person-add"></ion-icon>
+    </button>
+    </ion-buttons>
+    <ion-buttons end>
+      <button style = "25px;" (click)="presentPopover($event)" ion-button>
+        <ion-icon name="md-more"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <!-- this creates a google map on the page with the given lat/lng from -->
+  <!-- the component as the initial center of the map: -->
+  <agm-map [latitude]="lat" [longitude]="lng">
+    <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+  </agm-map>
+
+  <div style ="height: 7%; background-color: #03A9F4; width: 100%">
+    <div  style="text-align: center">
+      <div style="display: inline-block;">
+        <button style="height: 30px; background-color: #f4f4f4; margin-top:5px" (click)="funcao3()">PEDIR CARONA</button>
+      </div>
+    </div>
+  </div>
+</ion-content>
