@@ -91,10 +91,10 @@
         <variable name="APP_ID" value="261226921033553" />
         <variable name="APP_NAME" value="IzzyApp" />
     </plugin>
-    <plugin name="cordova-plugin-geolocation" spec="^2.4.3" />
     <engine name="ios" spec="~4.4.0" />
     <plugin name="com.synconset.imagepicker" spec="~2.1.8">
         <variable name="PHOTO_LIBRARY_USAGE_DESCRIPTION" value="your usage message" />
     </plugin>
     <plugin name="cordova-plugin-x-toast" spec="^2.6.0" />
+    <plugin name="cordova-plugin-geolocation" spec="^2.4.3" />
 </widget>

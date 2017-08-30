@@ -11,7 +11,6 @@ import {AddamigosPage} from "../pages/addamigos/addamigos";
 import {PopovermenuPage} from "../pages/popovermenu/popovermenu";
 import {ConfiguracoesPage} from "../pages/configuracoes/configuracoes";
 import {AmigosPage} from "../pages/amigos/amigos";
-import {GoogleMap, GoogleMaps} from "@ionic-native/google-maps";
 import { AgmCoreModule } from '@agm/core';
 import {TelainicialPage} from "../pages/telainicial/telainicial";
 import {LoginPage} from "../pages/login/login";
@@ -24,6 +23,8 @@ import * as firebase from "firebase/app";
 import {Facebook} from "@ionic-native/facebook";
 import { ImagePicker } from '@ionic-native/image-picker';
 import {SobrePage} from "../pages/sobre/sobre";
+import { Geolocation } from '@ionic-native/geolocation';
+
 
 
 var config = {
@@ -60,7 +61,7 @@ firebase.initializeApp(config);
     }),
     AngularFireModule.initializeApp(config),
     AngularFireAuthModule,
-    AngularFireDatabaseModule
+    AngularFireDatabaseModule,
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -81,9 +82,9 @@ firebase.initializeApp(config);
     StatusBar,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
-    GoogleMaps,
     Facebook,
-    ImagePicker
+    ImagePicker,
+      Geolocation
   ]
 })
 export class AppModule {}

@@ -1,20 +1,17 @@
 page-definirdestino {
-  agm-map {
-    height: 83%;
-  }
-  ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-    color: white;
-  }
-  ::-moz-placeholder { /* Firefox 19+ */
-    color: white;
-  }
-  :-ms-input-placeholder { /* IE 10+ */
-    color: white;
-  }
-  :-moz-placeholder { /* Firefox 18- */
-    color: white;
-  }
-  ::-moz-placeholder {
-    opacity: 1;
+  .ios, .md {
+
+    home-page {
+
+      .scroll {
+        height: 100%
+      }
+
+      #map {
+        width: 100%;
+        height: 95%;
+      }
+
+    }
   }
 }
